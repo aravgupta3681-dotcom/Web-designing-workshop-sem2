@@ -1,2 +1,2 @@
-# Web-designing-workshop-sem2
-JavaScript , React
+# WebDev_Sem2
+JavaScript and React
