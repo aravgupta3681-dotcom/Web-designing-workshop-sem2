@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+
+    <input type="number" id="box" placeholder="Enter number">
+    <button onclick="check()">Check</button>
+    <h2 id="answer"></h2>
+
+    <script>
+        function check() {
+            let n = document.getElementById("box").value;
+            
+            if (n % 2 == 0) {
+                document.getElementById("answer").innerHTML = "Even Number";
+            } else {
+                document.getElementById("answer").innerHTML = "Odd Number";
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+            background-color: #f9f9f9;
+        }
+        
+        input {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        #answer {
+            margin-top: 20px;
+            color: #333;
+        }
+    </style>
+
+</body>
+</html>
